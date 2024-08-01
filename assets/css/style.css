@@ -814,3 +814,30 @@ main {
         max-width: 700px;
     }
 }
+
+.gear1 {
+    background-image: url('gear1.png');
+    position: fixed;
+    left: 1580px;
+    top: 100px;
+    width: 280px;
+    height: auto;
+}
+
+.gear2 {
+    background-image: url('gear2.png');
+    position: fixed;
+    left: 1580px;
+    top: 320px;
+    width: 280px;
+    height: auto;
+}
+
+.gear3 {
+    background-image: url('gear3.png');
+    position: fixed;
+    left: 1580px;
+    top: 540px;
+    width: 280px;
+    height: auto;
+}
