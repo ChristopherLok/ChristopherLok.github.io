@@ -841,3 +841,43 @@ main {
     width: 280px;
     height: auto;
 }
+
+.gear4 {
+    background-image: url('gear4.png');
+    position: fixed;
+    left: 370px;
+    top: 600px;
+    width: 280px;
+    height: auto;
+    animation: spin 10s linear infinite;
+}
+
+.gear5 {
+    background-image: url('gear5.png');
+    position: fixed;
+    left: 420px;
+    top: 650px;
+    width: 180px;
+    height: auto;
+    animation: spin_back 10s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin_back {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
